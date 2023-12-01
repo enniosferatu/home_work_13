@@ -1,0 +1,50 @@
+.box {
+  fill: lightblue;
+  stroke: aquamarine;
+  stroke-width: 10px;
+  animation-name: anima;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anima {
+  0% {
+    width: 390px;
+    height: 390px;
+    stroke: rgb(152, 255, 221);
+  }
+  10% {
+    stroke: rgb(122, 255, 211);
+  }
+  20% {
+    stroke: rgb(85, 255, 198);
+  }
+  30% {
+    stroke: rgb(71, 255, 194);
+  }
+  40% {
+    stroke: rgb(44, 255, 185);
+  }
+  50% {
+    width: 700px;
+    height: 150px;
+    stroke: rgb(10, 255, 173);
+  }
+  60% {
+    stroke: rgb(44, 255, 185);
+  }
+  70% {
+    stroke: rgb(71, 255, 194);
+  }
+  80% {
+    stroke: rgb(85, 255, 198);
+  }
+  90% {
+    stroke: rgb(152, 255, 221);
+  }
+  100% {
+    width: 390px;
+    height: 390px;
+    stroke: aquamarine;
+  }
+}
